@@ -1,4 +1,3 @@
-import React from 'react';
 import { CheckCircle2 } from 'lucide-react';
 export function About() {
   const benefits = [
@@ -42,12 +41,7 @@ export function About() {
           <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden bg-matco-gray border border-matco-gray/50 flex items-center justify-center p-8">
             <div className="absolute inset-0 bg-gradient-to-br from-matco-cream/5 to-transparent"></div>
             <div className="relative z-10 text-center">
-              <div className="text-6xl font-bold text-matco-cream mb-2">
-                100%
-              </div>
-              <div className="text-matco-muted uppercase tracking-widest text-sm">
-                Compromiso
-              </div>
+              <img src="webs.png" alt="Desarrollo Web" className="max-w-full max-h-full object-contain rounded-2xl" />
             </div>
             {/* Decorative elements */}
             <div className="absolute top-10 right-10 w-20 h-20 border border-matco-cream/20 rounded-full"></div>

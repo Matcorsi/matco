@@ -103,7 +103,7 @@ export function Contact() {
                   id="email"
                   required
                   className="block w-full pl-10 bg-matco-bg border border-matco-gray/50 rounded-lg py-3 text-matco-text placeholder-matco-muted/50 focus:ring-2 focus:ring-matco-cream focus:border-transparent transition-all outline-none"
-                  placeholder="tu@email.com"
+                  placeholder="ejemplo@email.com"
                   value={formState.email}
                   onChange={(e) =>
                   setFormState({

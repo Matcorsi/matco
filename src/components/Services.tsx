@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code, Share2, Globe, ArrowUpRight } from 'lucide-react';
 const services = [
 {

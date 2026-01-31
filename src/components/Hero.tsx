@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from './ui/Button';
 import { ArrowRight } from 'lucide-react';
 export function Hero() {
@@ -11,6 +10,8 @@ export function Hero() {
     <section
       id="hero"
       className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+        
+      <a href="https://walink.co/fa3ab2"><img className="fixed bottom-[55px] right-[40px] w-[60px] h-[60px] rounded-full shadow-lg z-[1000] animate-soft-pulse hover:scale-110 transition-transform" src="whatsapp-flotante.png" alt="whatsapp"/></a>
 
       {/* Background Elements */}
       <div className="absolute inset-0 bg-matco-bg z-0">
