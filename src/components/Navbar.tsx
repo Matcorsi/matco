@@ -50,6 +50,12 @@ export function Navbar() {
 
               Nosotros
             </button>
+            <button
+              onClick={() => scrollToSection('portfolio')}
+              className="text-matco-muted hover:text-matco-cream transition-colors text-sm font-medium">
+
+              Trabajos
+            </button>
             <Button
               variant="primary"
               size="sm"
@@ -87,6 +93,12 @@ export function Navbar() {
             className="text-matco-cream font-medium py-2 hover:bg-matco-gray rounded px-2 text-left">
 
               Nosotros
+            </button>
+            <button
+            onClick={() => scrollToSection('portfolio')}
+            className="text-matco-cream font-medium py-2 hover:bg-matco-gray rounded px-2 text-left">
+
+              Trabajos
             </button>
             <Button
             variant="primary"
