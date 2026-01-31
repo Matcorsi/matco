@@ -1,5 +1,4 @@
-import React from 'react';
-import { Instagram, Twitter, Linkedin, Github } from 'lucide-react';
+import { Instagram, Linkedin, Github } from 'lucide-react';
 export function Footer() {
   const currentYear = new Date().getFullYear();
   return (
@@ -15,18 +14,11 @@ export function Footer() {
 
           <div className="flex space-x-6">
             <a
-              href="#"
+              href=""
               className="text-matco-muted hover:text-matco-cream transition-colors">
 
               <span className="sr-only">Instagram</span>
               <Instagram className="h-6 w-6" />
-            </a>
-            <a
-              href="#"
-              className="text-matco-muted hover:text-matco-cream transition-colors">
-
-              <span className="sr-only">Twitter</span>
-              <Twitter className="h-6 w-6" />
             </a>
             <a
               href="#"

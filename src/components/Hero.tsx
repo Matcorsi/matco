@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+      className="relative min-h-screen flex items-center justify-center pt-5 md:pt-20 overflow-hidden">
         
       <a href="https://walink.co/fa3ab2"><img className="fixed bottom-[55px] right-[40px] w-[60px] h-[60px] rounded-full shadow-lg z-[1000] animate-soft-pulse hover:scale-110 transition-transform" src="whatsapp-flotante.png" alt="whatsapp"/></a>
 
@@ -66,7 +66,7 @@ export function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce text-matco-muted">
+      <div className="absolute bottom-8 left-0 w-full flex justify-center transform -translate-x-1/2 animate-bounce text-matco-muted">
         <div className="w-6 h-10 border-2 border-matco-muted rounded-full flex justify-center p-1">
           <div className="w-1 h-2 bg-matco-muted rounded-full"></div>
         </div>
