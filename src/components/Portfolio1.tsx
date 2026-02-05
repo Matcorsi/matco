@@ -26,7 +26,7 @@ const PROJECTS: Project[] = [
   title: 'Lago del Fuerte',
   category: 'Apps',
   image:
-  'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800',
+  'lago.png',
   description:
   'Mobile application for tracking vital health metrics, scheduling appointments, and connecting with healthcare providers securely.',
   technologies: ['React Native', 'Firebase', 'Redux', 'HealthKit']
