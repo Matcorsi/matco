@@ -61,16 +61,16 @@ const PROJECTS: Project[] = [
   'Desarrollo web para empresa de fotografia y grabacion con drones de la ciudad de Tandil.',
   technologies: ['Flutter', 'OpenAI API', 'Google Maps API']
 },
-// {
-//   id: 6,
-//   title: 'EcoSpace Identity',
-//   category: 'Branding',
-//   image:
-//   'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800',
-//   description:
-//   'Sustainable architecture firm branding focused on organic shapes and earth tones to reflect their commitment to environmental design.',
-//   technologies: ['Illustrator', 'Blender', 'After Effects']
-// }
+{
+  id: 6,
+  title: 'Torneo - Club Union',
+  category: 'Branding',
+  image:
+  'union.jpg',
+  description:
+  'Desarrollo de branding para torneo de futbol del Club Union',
+  technologies: ['Canva', 'Figma', 'After Effects']
+}
 ];
 
 const CATEGORIES: Category[] = ['All', 'Web', 'Apps', 'Branding'];
