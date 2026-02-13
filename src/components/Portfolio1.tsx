@@ -18,7 +18,7 @@ const PROJECTS: Project[] = [
   image:
   'granja.png',
   description:
-  'A comprehensive financial analytics dashboard featuring real-time data visualization, transaction tracking, and predictive modeling for enterprise clients.',
+  'Desarrollo del sitio web oficial del Centro de Rescate de Fauna Silvestre de Granja Los Pibes.',
   technologies: ['React', 'TypeScript', 'D3.js', 'Node.js']
 },
 {
@@ -28,49 +28,50 @@ const PROJECTS: Project[] = [
   image:
   'lago.png',
   description:
-  'Mobile application for tracking vital health metrics, scheduling appointments, and connecting with healthcare providers securely.',
+  'Bajo el marco del proyecto "Conocer para Cuidar" se realizo esta app informativa sobre fauna silvestre en el Lago del Fuerte, trabajo realizado para Granja Los Pibes, El valle de los ciervos y el Municipio de Tandil.',
   technologies: ['React Native', 'Firebase', 'Redux', 'HealthKit']
 },
 {
   id: 3,
-  title: 'Lumina Brand',
-  category: 'Branding',
+  title: 'PDS - Kinesiologia',
+  category: 'Web',
   image:
-  'https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80&w=800',
+  'pds.png',
   description:
-  'Complete brand identity overhaul for a luxury lighting company, including logo design, packaging, and digital presence guidelines.',
-  technologies: ['Adobe CC', 'Figma', 'Cinema 4D']
+  'Pagina web realizada para licenciado en kinesiologia de la ciudad de La Plata.',
+  technologies: ['React', 'Figma', 'Tailwinds']
 },
 {
   id: 4,
-  title: 'E-Commerce Platform',
+  title: 'Cre-ando',
   category: 'Web',
   image:
-  'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?auto=format&fit=crop&q=80&w=800',
+  'creando.png',
   description:
-  'Scalable e-commerce solution with headless CMS integration, advanced search filtering, and seamless payment gateway implementation.',
+  'Desarrollo web para centro complementario para chicos y chicas de la ciudad de Tandil.',
   technologies: ['Next.js', 'Shopify API', 'Tailwind CSS', 'Stripe']
 },
 {
   id: 5,
-  title: 'Travel Companion',
-  category: 'Apps',
+  title: 'Tandil Drones',
+  category: 'Web',
   image:
-  'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=800',
+  'td1.png',
   description:
-  'AI-powered travel itinerary planner that suggests personalized activities based on user preferences and local weather conditions.',
+  'Desarrollo web para empresa de fotografia y grabacion con drones de la ciudad de Tandil.',
   technologies: ['Flutter', 'OpenAI API', 'Google Maps API']
 },
-{
-  id: 6,
-  title: 'EcoSpace Identity',
-  category: 'Branding',
-  image:
-  'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800',
-  description:
-  'Sustainable architecture firm branding focused on organic shapes and earth tones to reflect their commitment to environmental design.',
-  technologies: ['Illustrator', 'Blender', 'After Effects']
-}];
+// {
+//   id: 6,
+//   title: 'EcoSpace Identity',
+//   category: 'Branding',
+//   image:
+//   'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800',
+//   description:
+//   'Sustainable architecture firm branding focused on organic shapes and earth tones to reflect their commitment to environmental design.',
+//   technologies: ['Illustrator', 'Blender', 'After Effects']
+// }
+];
 
 const CATEGORIES: Category[] = ['All', 'Web', 'Apps', 'Branding'];
 export function Portfolio1() {
